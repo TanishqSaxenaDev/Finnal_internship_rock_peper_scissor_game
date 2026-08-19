@@ -196,10 +196,7 @@ Some features I may add in future versions:
 
 ## 📸 Project Preview
 
-
-```markdown
 ![Rock Paper Scissors Preview](./assets/preview.png)
-```
 
 ---
 
