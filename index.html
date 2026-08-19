@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors game | developed by Tanishq Saxena | project given by InternPE team </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="game-container" role="main" aria-label="Rock Paper Scissors Game">
+        <!-- Header -->
+        <div class="header">
+            <h1>🪨📄✂️</h1>
+            <h1 style="font-size:1.6rem;">Rock Paper Scissors</h1>
+            <p class="subtitle">Best of luck, champion!</p>
+        </div>
+
+        <!-- Scoreboard -->
+        <div class="scoreboard">
+            <div class="score-card player-card" id="playerScoreCard">
+                <div class="label">You</div>
+                <div class="score" id="playerScore">0</div>
+            </div>
+            <div class="score-divider">:</div>
+            <div class="score-card computer-card" id="computerScoreCard">
+                <div class="label">Computer</div>
+                <div class="score" id="computerScore">0</div>
+            </div>
+        </div>
+
+        <!-- Round Info -->
+        <div class="round-info">
+            Round <span id="roundNumber">1</span>
+        </div>
+
+        <!-- Battle Zone -->
+        <div class="battle-zone">
+            <div class="choice-display" id="playerChoiceDisplay">
+                <span class="choice-icon" id="playerChoiceIcon">🤔</span>
+                <span class="choice-name" id="playerChoiceName">Waiting...</span>
+            </div>
+            <div class="vs-badge">VS</div>
+            <div class="choice-display" id="computerChoiceDisplay">
+                <span class="choice-icon" id="computerChoiceIcon">💻</span>
+                <span class="choice-name" id="computerChoiceName">Thinking...</span>
+            </div>
+        </div>
+
+        <!-- Result Banner -->
+        <div class="result-banner" id="resultBanner">
+            Make your move!
+        </div>
+
+        <!-- Choices -->
+        <div class="choices-grid">
+            <button class="choice-btn rock-btn" data-choice="rock" aria-label="Rock">
+                <span class="btn-icon">🪨</span>
+                <span class="btn-label">Rock</span>
+            </button>
+            <button class="choice-btn paper-btn" data-choice="paper" aria-label="Paper">
+                <span class="btn-icon">📄</span>
+                <span class="btn-label">Paper</span>
+            </button>
+            <button class="choice-btn scissors-btn" data-choice="scissors" aria-label="Scissors">
+                <span class="btn-icon">✂️</span>
+                <span class="btn-label">Scissors</span>
+            </button>
+        </div>
+
+        <!-- Footer Actions -->
+        <div class="footer-actions">
+            <button class="reset-btn" id="resetBtn">🔄 Reset Game</button>
+        </div>
+    </div>
+
+    <!-- Confetti Container -->
+    <div class="confetti-container" id="confettiContainer"></div>
+    <script src="main.js"></script>
+</body>
+</html>
