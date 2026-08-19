@@ -196,7 +196,6 @@ Some features I may add in future versions:
 
 ## 📸 Project Preview
 
-*Add your project screenshot or demo GIF here.*
 
 ```markdown
 ![Rock Paper Scissors Preview](./assets/preview.png)
