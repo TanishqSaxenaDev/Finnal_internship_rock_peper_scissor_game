@@ -5,11 +5,12 @@ A modern, interactive **Rock Paper Scissors** game built with **HTML, CSS, and J
 The project focuses on combining simple game logic with a polished user interface, smooth animations, responsive design, and interactive feedback.
 
 ## 🔗 Links 
-![Site Link](https://tanishqsaxenadev.github.io/Finnal_internship_rock_peper_scissor_game/)
 
-![Linkedin Link](https://www.linkedin.com/in/tanishqfromindo/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BQLweenRyR428rDgRwWficQ%3D%3D)
+SITE LINK : https://tanishqsaxenadev.github.io/Finnal_internship_rock_peper_scissor_game/
 
-![Telegram Link](https://t.me/tanishqNihonjin/)
+LINKED IN LINK : https://www.linkedin.com/in/tanishqfromindo
+
+TELEGRAM LINK : https://t.me/tanishqNihonjin
 
 ---
 
